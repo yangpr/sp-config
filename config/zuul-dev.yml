@@ -24,11 +24,11 @@ eureka:
 zuul:
   retryable: true
 
-ribbon:
-  ConnectTimeout: 1000
-  ReadTimeout: 1000
-  MaxAutoRetriesNextServer: 1
-  MaxAutoRetries: 1
+#ribbon:
+ # ConnectTimeout: 1000
+  #ReadTimeout: 1000
+  #MaxAutoRetriesNextServer: 1
+  #MaxAutoRetries: 1
 
 management:
   endpoints:
